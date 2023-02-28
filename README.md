@@ -1,6 +1,5 @@
-# Getting Started with Create React App
+This website is created with Reactjs , Framer-Motion , @Emailjs. Following are the video of my protfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
