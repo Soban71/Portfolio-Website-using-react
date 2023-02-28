@@ -1,0 +1,107 @@
+
+.t-heading{
+    align-self: start;
+    padding: 0rem 3rem 0rem 3rem;
+    height: 25vh;
+    margin-top: 10rem;
+   gap: 2rem;
+   position: relative;
+}
+.t-heading>*{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.t-heading span:nth-of-type(2){
+    color: var(--orange);
+}
+.t-blur1{
+    left: 40rem;
+    top: 17rem;
+}
+.t-blur2{
+    left: 0rem;
+    top: 3rem;
+}
+.testmonial{
+
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.testmonial2{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+padding: 2rem;
+width: 30rem;
+height: 16rem;
+background: rgba(255, 255, 255, 0.26);
+border: 7px solid var(--blueCard);
+border-radius: 20px;
+box-shadow: var(--boxShadow);
+}
+.testmonial2>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.testmonial2>span{
+color: var(--gray);
+font-size: 0.8rem;
+text-align: center
+}
+.t-wrapper .swiper{
+width: 100%;
+height: 70%;
+}
+
+.t-wrapper .swiper-slide{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.t-wrapper .swiper-pagination-bullet-active{
+    background-color: var(--orange);
+}
+
+@media screen and (max-width : 780px) {
+    
+    .t-wrapper{
+        padding: 0;
+        margin-top: -2rem;
+        height: 100vh;
+      
+    }
+    .testmonial2>img{
+        width: 70px;
+        height: 70px;
+    }
+    .t-heading span{
+        transform: scale(0.2);
+        font-size: 0.7rem;
+        font-weight: 700;
+        align-self: start;
+    }
+    .testmonial2{
+width: auto;
+    }
+    .testmonial2 span{
+font-size: 0.5rem;
+    }
+    .t-heading{
+        align-self: start;
+        padding: 0rem 0rem 0rem 0rem;
+        height: 20vh;
+        margin-top: 8rem;
+       gap: 2rem;
+       position: relative;
+    }
+    .t-heading>*{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}

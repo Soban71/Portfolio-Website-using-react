@@ -1,0 +1,63 @@
+#Services{
+    padding: 0 4rem 0 4rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+.Awesome{
+    display: flex;
+    flex-direction: column;
+}
+.Awesome>:nth-child(1){
+color: var(--black);
+font-size: 2rem;
+
+}
+
+.Awesome>:nth-child(2){
+    color: var(--orange);
+    font-size: 2rem;
+   
+    }
+
+    .Awesome>:nth-child(3){
+        color: var(--gray);
+        font-size: 14px;
+       
+        }
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width : 780px) {
+   
+    #Services{
+        margin-top: 0rem;
+        flex-direction: column;
+        height: 65rem;
+        padding: 0;
+        width: auto;
+    }
+    .Awesome>:nth-child(1){
+        color: var(--black);
+        font-size: 2rem;
+        
+        }
+        
+        .Awesome>:nth-child(2){
+            color: var(--orange);
+            font-size: 2rem;
+           
+            }
+    .Cards{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Cards>*{
+        position:static;
+    }
+}
