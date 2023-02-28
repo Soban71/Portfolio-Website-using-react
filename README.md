@@ -1,7 +1,10 @@
-This website is created with Reactjs , Framer-Motion , @Emailjs. Following are the video of my protfolio
+This website is created with Reactjs , Framer-Motion , @Emailjs. 
 
+
+Following link has short video: 
 https://clipchamp.com/watch/Y4tHZsezzJd
-## Available Scripts
+
+
 
 In the project directory, you can run:
 
